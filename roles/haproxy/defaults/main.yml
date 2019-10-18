@@ -22,3 +22,8 @@ haproxy_backend_servers:
     address: 192.168.33.12:80
   - name: webserver-two
     address: 192.168.33.13:80
+    
+# Stats Credentials
+haproxy_stats_user: 'root'
+haproxy_stats_user: '1234'
+
