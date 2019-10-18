@@ -34,7 +34,7 @@ backend {{ haproxy_backend_name }}
     stats enable
     stats uri /haproxy?stats
     stats realm Strictly\ Private
-    stats auth root:root
+    stats auth {{ haproxy_stats_user }}:{{ haproxy_stats_user }}
     balance {{ haproxy_backend_balance_method }}
     balance roundrobin
     option httpclose
