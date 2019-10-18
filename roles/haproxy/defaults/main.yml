@@ -25,5 +25,5 @@ haproxy_backend_servers:
     
 # Stats Credentials
 haproxy_stats_user: 'root'
-haproxy_stats_user: '1234'
+haproxy_stats_password: '1234'
 
